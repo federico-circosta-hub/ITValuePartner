@@ -10,7 +10,9 @@ Una volta caricato un file csv viene chiamata l'api postCsv e vengono restituiti
   - balance in EUR e USD
   - balance delle securities
   - i volumi dei circuiti di pagamento usati
-I dati vengono quindi visualizzati nell'area sottostante al bottone di import, con possibilità di reset per caricare un altro file.
+
+I dati vengono quindi visualizzati nell'area sottostante al bottone di import: cliccando sulle card relative al conto si apre un'altra sezione sottostante con i singoli dettagli del conto.
+Vi è infine la possibilità di reset (al posto del bottone di import) per caricare un altro file.
 
 Per questioni di tempo non è stato possibile implementare altre feature.
 Lato server avrei srutturato i dati e poi effettuato delle query per ottenere i dati.
